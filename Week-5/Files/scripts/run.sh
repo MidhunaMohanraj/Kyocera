@@ -12,7 +12,7 @@ APP="$HERE/../src/kyocera_pmd_init"
 if [[ ! -x "$APP" ]]; then
     echo "ERROR: kyocera_pmd_init binary not found. Run scripts/build.sh first." >&2
     exit 1
-fi
+fi  
 
 LCORES="${LCORES:-0-3}"
 PREFIX="${PREFIX:-kpmd}"
