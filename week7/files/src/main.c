@@ -6,7 +6,7 @@
  *   - Re-encapsulation: encoded payload wrapped in Eth/IPv4/UDP
  *   - TX return path through DPMAC.1
  *   - 60-op batch ceiling (Task 3 NXP QDMA workaround)
- *
+ *   
  * Spec: Week7_Task4_Dequeue_ReturnPath_UserManual.docx
  *
  * Review fixes applied vs spec:
