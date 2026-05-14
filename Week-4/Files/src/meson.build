@@ -1,7 +1,7 @@
 # meson build alternative to the Makefile.
 #
 # Usage (on target):
-#   cd src && meson setup build && meson compile -C build 
+#   cd src && meson setup build && meson compile -C build   
 #
 # Produces: src/build/kyocera_pmd_init
 
