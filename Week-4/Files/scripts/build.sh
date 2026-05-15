@@ -13,7 +13,7 @@ echo "DPDK headers: /usr/local/include/dpdk/"
 echo "DPDK libs:    /usr/local/lib/"
 
 cd "$SRC_DIR"
-make clean
+make clean  
 make -j"$(nproc)"
 echo ""
 echo "Built: $SRC_DIR/kyocera_pmd_init"
