@@ -17,7 +17,7 @@
  *
  * Run command:
  *   ./kyocera_pmd_init -l 0-3 -n 1 --file-prefix=kpmd --vdev=baseband_la12xx
- */
+ */  
 
 #include <stdio.h>   
 #include <stdint.h>
