@@ -12,7 +12,7 @@ SRC_DIR="$HERE/../src"
 echo "DPDK headers: /usr/local/include/dpdk/"
 echo "DPDK libs:    /usr/local/lib/"
 
-cd "$SRC_DIR"
+cd "$SRC_DIR"  
 make clean  
 make -j"$(nproc)"
 echo ""  
