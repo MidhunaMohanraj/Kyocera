@@ -15,5 +15,5 @@ echo "DPDK libs:    /usr/local/lib/"
 cd "$SRC_DIR"
 make clean  
 make -j"$(nproc)"
-echo ""
+echo ""  
 echo "Built: $SRC_DIR/kyocera_pmd_init"
