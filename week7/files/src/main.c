@@ -8,7 +8,7 @@
  *   - 60-op batch ceiling (Task 3 NXP QDMA workaround)
  *   
  * Spec: Week7_Task4_Dequeue_ReturnPath_UserManual.docx
- *
+ *   
  * Review fixes applied vs spec:
  *   - OUT_MBUF_SIZE includes 4096 adj_addr headroom (spec had 512 only)
  *   - output.length set to LDPC_OUT_BYTES not 0 (avoids QDMA fmt error)
