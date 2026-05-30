@@ -14,7 +14,7 @@ LDFLAGS += -lpthread -ldl -lnuma -lrt -lm
 all: $(APP)
 
 $(APP): $(SRCS)
-	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)
+	$(CC) $(CFLAGS) $^ -o $@ $(LDFLAGS)  
 
 clean:
 	rm -f $(APP) *.o
