@@ -16,5 +16,5 @@ cd "$SRC_DIR"
 make clean
 make -j"$(nproc)"  
 echo ""
-echo "Built: $SRC_DIR/kyocera_pmd_init"
+echo "Built: $SRC_DIR/kyocera_pmd_init"  
  
