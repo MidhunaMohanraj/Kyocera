@@ -87,7 +87,6 @@ log_mac_and_link(uint16_t port_id)
             link.link_speed,
             link.link_duplex == ETH_LINK_FULL_DUPLEX ? "full" : "half");
 }
-
 static int
 configure_port(uint16_t port_id, struct rte_mempool *mp)
 {
