@@ -22,7 +22,6 @@
 #include <rte_debug.h>
 #include <rte_errno.h>
 #include <rte_log.h>
-
 #define NB_MBUF           8192
 #define MBUF_CACHE_SIZE   256
 #define MBUF_DATAROOM     RTE_MBUF_DEFAULT_BUF_SIZE
