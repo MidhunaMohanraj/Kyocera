@@ -44,7 +44,6 @@ handle_signal(int sig)
     (void)sig;
     force_quit = 1;
 }
-
 static struct rte_eth_conf port_conf_default = {
     .rxmode = {
         .mq_mode        = ETH_MQ_RX_NONE,
