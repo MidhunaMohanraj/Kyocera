@@ -68,7 +68,7 @@ rte_pmd_la12xx_map_hugepage_addr(uint16_t dev_id, void *addr);
 #define NB_BBDEV_QUEUES      2
 #define NB_BBDEV_OPS         16
 #define BBDEV_OP_POOL_SIZE   2048
-#define BBDEV_OP_POOL_CACHE  128
+#define BBDEV_OP_POOL_CACHE  128 
 
 #define STATS_PRINT_SEC      5
 
